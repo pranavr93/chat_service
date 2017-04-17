@@ -2,7 +2,7 @@
 
 Isaac Bowen(irbowen) & Pranav Ramarao(pranavr)
 
-Our paxos implmentation is written in c++14. You can git clone the repo, cd in the dir, and type `make`.
+Our paxos implmentation is written in c++14. You can git clone the repo, cd into the dir, and type `make`.
 This will build the binary for the paxos replicas and the binary for many clients that can be used for testing.
 
 Each binary requires several command line arguments, as well as a configuration file containing the command line arguments of all other replicas in the system. Because `f` can vary, we have a script to generate the startup script based on f.
